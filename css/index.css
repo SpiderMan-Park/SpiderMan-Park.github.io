@@ -3151,26 +3151,18 @@ h1.page-title + .tag-cloud-list {
 }
 #footer {
   position: relative;
-  background: #49b1f5;
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
 }
-#footer:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  content: '';
-}
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
-  color: var(--light-grey);
+  color: var(--black);
   text-align: center;
 }
 #footer-wrap a {
-  color: var(--light-grey);
+  color: var(--black);
 }
 #footer-wrap a:hover {
   text-decoration: underline;
