@@ -5,7 +5,7 @@
 # Site
 title: 星河晚のBlog
 subtitle: ''
-description: '学如逆水行舟，不进则退。'
+description: '书山有路勤为径，学海无涯苦作舟。'
 keywords: 星河晚
 author: zhangdeyu
 language: zh-CN
@@ -110,6 +110,14 @@ live2d:
 		height: 300      #模型高度
 	mobile: 
 		show: false      #是否在手机端显示
+
+bangumi:
+  enable: true 
+  vmid: 355458180
+  title: '追番列表'
+  quote: '生命不息，追番不止！'
+  show: 1
+  loading: '/img/loading.gif'
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
