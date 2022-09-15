@@ -119,6 +119,10 @@ bangumi:
   show: 1
   loading: '/img/loading.gif'
 
+aplayer:
+  meting: true
+  asset_inject: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
