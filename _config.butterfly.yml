@@ -85,7 +85,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/index_img.jpg
+index_img: /img/index_img.webp
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
@@ -824,7 +824,7 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
