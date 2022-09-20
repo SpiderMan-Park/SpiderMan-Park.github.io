@@ -136,6 +136,12 @@ magnet:
     - name: Hexo
       display_name: Hexo教程
       icon: 📚
+    - name: 前端
+      display_name: 前端知识总结
+      icon: 📒
+    - name: 数据结构
+      display_name: 数据结构
+      icon: 👩‍💻
   color_setting:
     text_color: black
     text_hover_color: white
