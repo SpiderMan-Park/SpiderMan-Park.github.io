@@ -7,7 +7,7 @@ categories:
   - 前端
 keywords:
   - CSS
-swiper_index: 6
+swiper_index: 1
 swiper_desc: 前端通关手册：CSS篇
 swiper_cover: /img/front/css_img/css.webp
 top_img: /img/front/css_img/css.webp

@@ -7,9 +7,6 @@ categories:
   - 前端
 keywords:
   - JavaScript
-swiper_index: 5
-swiper_desc: 前端通关手册：JavaScript篇（下）
-swiper_cover: /img/front/js_img/js.webp
 top_img: /img/front/js_img/js.webp
 cover: /img/front/js_img/js.webp
 ---

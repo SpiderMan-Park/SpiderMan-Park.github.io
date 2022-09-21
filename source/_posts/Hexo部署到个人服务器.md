@@ -7,9 +7,6 @@ categories:
   - Hexo
 keywords:
   - Hexo
-swiper_index: 3
-swiper_desc: Hexo部署到个人服务器
-swiper_cover: /img/hexo/hexo.webp
 top_img: /img/hexo/hexo.webp
 cover: /img/hexo/hexo.webp
 ---

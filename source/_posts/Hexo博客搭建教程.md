@@ -7,7 +7,7 @@ categories:
   - Hexo
 keywords:
   - Hexo
-swiper_index: 1
+swiper_index: 3
 swiper_desc: Hexo博客搭建教程
 swiper_cover: /img/hexo/hexo.webp
 top_img: /img/hexo/hexo.webp

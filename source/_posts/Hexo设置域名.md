@@ -7,9 +7,6 @@ categories:
   - Hexo
 keywords:
   - Hexo
-swiper_index: 2
-swiper_desc: Hexo设置域名
-swiper_cover: /img/hexo/hexo.webp
 top_img: /img/hexo/hexo.webp
 cover: /img/hexo/hexo.webp
 ---
