@@ -142,6 +142,9 @@ magnet:
     - name: 数据结构
       display_name: 数据结构
       icon: 👩‍💻
+    - name: 算法
+      display_name: 算法
+      icon: 💡
   color_setting:
     text_color: black
     text_hover_color: white
