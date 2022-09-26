@@ -7,6 +7,6 @@ categories:
   - 算法
 keywords:
   - 算法
-top_img: /img/algorithm/DP.jpg
-cover: /img/algorithm/DP.jpg
+top_img: /img/algorithm/DP/DP.jpg
+cover: /img/algorithm/DP/DP.jpg
 ---
