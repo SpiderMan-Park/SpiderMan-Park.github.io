@@ -7,8 +7,8 @@ categories:
   - 算法
 keywords:
   - 算法
-top_img: /img/algorithm/search.jpeg
-cover: /img/algorithm/search.jpeg
+top_img: /img/algorithm/Search/search.jpeg
+cover: /img/algorithm/Search/search.jpeg
 ---
 
 # JavaScript常用查找算法
@@ -57,7 +57,7 @@ function linearSearch(arr, val){
 -  如果待搜索值比选中值要大，则返回步骤 1 并在选种值右边的子数组中寻找（较大）；
 - 如果选中值是待搜索值，那么算法执行完毕（值找到了）。
 
-![](/img/algorithm/BinarySearch.gif)
+![](/img/algorithm/Search/BinarySearch.gif)
 
 
 **实现**

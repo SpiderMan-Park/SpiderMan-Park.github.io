@@ -7,8 +7,8 @@ categories:
   - 算法
 keywords:
   - 算法
-top_img: /img/algorithm/sort.jpg
-cover: /img/algorithm/sort.jpg
+top_img: /img/algorithm/Sort/sort.jpg
+cover: /img/algorithm/Sort/sort.jpg
 ---
 
 # 十大经典排序
@@ -42,7 +42,7 @@ cover: /img/algorithm/sort.jpg
 
 **在冒泡排序中，只有交换才可以改变两个元素的前后顺序。 为了保证冒泡排序算法的稳定性，当有相邻的两个元素大小相等的时候，我们不做交换，相同大小的数据在排序前后不会改变顺序。 所以冒泡排序是稳定的排序算法。**
 
-![](/img/algorithm/BubbleSort.gif)
+![](/img/algorithm/Sort/BubbleSort.gif)
 
 
 ```javascript
@@ -94,7 +94,7 @@ const bubbleSort = arr => {
 
 **在插入排序中，对于值相同的元素，我们可以选择将后面出现的元素，插入到前面出现元素的后面，这样就可以保持原有的前后顺序不变，所以插入排序是稳定的排序算法。**
 
-![](/img/algorithm/InsertionSort.gif)
+![](/img/algorithm/Sort/InsertionSort.gif)
 
 
 ```javascript
@@ -145,7 +145,7 @@ const insertionSort = array => {
 
 **选择排序每次都要找剩余未排序元素中的最小值，并和前面的元素交换位置，这样破坏了稳定性。所以，选择排序是一种不稳定的排序算法。**
 
-![](/img/algorithm/SelectionSort.gif)
+![](/img/algorithm/Sort/SelectionSort.gif)
 
 
 ```javascript
@@ -187,7 +187,7 @@ const selectionSort = array => {
 
 **merge 方法里面的 left[0] <= right[0] ，保证了值相同的元素，在合并前后的先后顺序不变。归并排序是稳定的排序方法。**
 
-![](/img/algorithm/MergeSort.gif)
+![](/img/algorithm/Sort/MergeSort.gif)
 
 
 ```javascript
@@ -248,7 +248,7 @@ const merge = (left, right) => {
 
 **和选择排序相似，快速排序每次交换的元素都有可能不是相邻的，因此它有可能打破原来值为相同的元素之间的顺序。因此，快速排序并不稳定。**
 
-![](/img/algorithm/QuickSort.gif)
+![](/img/algorithm/Sort/QuickSort.gif)
 
 方法一：
 
@@ -341,7 +341,7 @@ const quickSort1 = arr => {
 
 **单次直接插入排序是稳定的，它不会改变相同元素之间的相对顺序，但在多次不同的插入排序过程中，相同的元素可能在各自的插入排序中移动，可能导致相同元素相对顺序发生变化。 因此，希尔排序不稳定。**
 
-![](/img/algorithm/ShellSort.gif)
+![](/img/algorithm/Sort/ShellSort.gif)
 
 
 ```javascript
@@ -392,7 +392,7 @@ const shellSort = arr => {
 
 **因为在排序的过程，存在将堆的最后一个节点跟堆顶节点互换的操作，所以就有可能改变值相同数据的原始相对顺序。 所以，堆排序是不稳定的排序算法。**
 
-![](/img/algorithm/HeapSort.gif)
+![](/img/algorithm/Sort/HeapSort.gif)
 
 
 ```javascript
@@ -495,7 +495,7 @@ const heapify = (array, i, length) => {
 
 **动画演示**
 
-![](/img/algorithm/BucketSort.gif)
+![](/img/algorithm/Sort/BucketSort.gif)
 
 
 - 首先，设置固定数量的空桶，在这里为了方便演示，设置桶的数量为 5 个空桶
@@ -627,7 +627,7 @@ const swap = (arr, i, j) => {
 
 **计数排序不改变相同元素之间原本相对的顺序，因此它是稳定的排序算法。**
 
-![](/img/algorithm/CountingSort.gif)
+![](/img/algorithm/Sort/CountingSort.gif)
 
 
 方法一：
@@ -724,7 +724,7 @@ const countingSort2 = (arr, maxValue) => {
 
 **LSD 基数排序：**
 
-![](/img/algorithm/RadixSort.gif)
+![](/img/algorithm/Sort/RadixSort.gif)
 
 
 ```javascript

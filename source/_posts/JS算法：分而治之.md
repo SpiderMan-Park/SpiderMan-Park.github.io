@@ -7,8 +7,8 @@ categories:
   - 算法
 keywords:
   - 算法
-top_img: /img/algorithm/DivideConquer.jpg
-cover: /img/algorithm/DivideConquer.jpg
+top_img: /img/algorithm/DivideConquer/DivideConquer.jpg
+cover: /img/algorithm/DivideConquer/DivideConquer.jpg
 ---
 
 # 分治算法（Divide & Conquer）
@@ -47,7 +47,7 @@ cover: /img/algorithm/DivideConquer.jpg
 
 **4、leetcode 169.多数元素**  https://leetcode.cn/problems/majority-element/
 
-![](/img/algorithm/leetcode169.png)
+![](/img/algorithm/DivideConquer/leetcode169.png)
 
   **分治法解题思路：**
 
@@ -96,7 +96,7 @@ cover: /img/algorithm/DivideConquer.jpg
 
 **5、leetcode 53.最大子数组合**  https://leetcode.cn/problems/maximum-subarray/
 
-![](/img/algorithm/leetcode53.png)
+![](/img/algorithm/DivideConquer/leetcode53.png)
 
   **分治法解题思路：**
 
@@ -155,7 +155,7 @@ cover: /img/algorithm/DivideConquer.jpg
 
 **6、leetcode 374.猜数字大小**  https://leetcode.cn/problems/guess-number-higher-or-lower/
 
-![](/img/algorithm/leetcode374.png)
+![](/img/algorithm/DivideConquer/leetcode374.png)
 
   **代码实现：**
 
@@ -190,7 +190,7 @@ cover: /img/algorithm/DivideConquer.jpg
 
 **7、leetcode 226.翻转二叉树**  https://leetcode.cn/problems/invert-binary-tree/
 
-![](/img/algorithm/leetcode226.png)
+![](/img/algorithm/DivideConquer/leetcode226.png)
 
   **代码实现：**
 
@@ -210,7 +210,7 @@ cover: /img/algorithm/DivideConquer.jpg
 
 **8、leetcode 101.对称二叉树**  https://leetcode.cn/problems/symmetric-tree/
 
-![](/img/algorithm/leetcode101.png)
+![](/img/algorithm/DivideConquer/leetcode101.png)
 
   **分治法解题思路：**
 
@@ -242,7 +242,7 @@ cover: /img/algorithm/DivideConquer.jpg
 
 **9、leetcode 100.相同的树**  https://leetcode.cn/problems/same-tree/
 
-![](/img/algorithm/leetcode100.png)
+![](/img/algorithm/DivideConquer/leetcode100.png)
 
   **分治法解题思路：**
 
