@@ -868,7 +868,7 @@ inject:
      - <link rel="stylesheet" href="/css/font.css">
   bottom:
     # - <script src="xxxx"></script>
-    - <div class="aplayer no-destroy" data-id="5072091497" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-lrcType="-1"> </div>
+    - <div class="aplayer no-destroy" data-id="5072091497" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" data-lrcType="-1"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
