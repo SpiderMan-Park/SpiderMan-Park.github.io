@@ -258,5 +258,100 @@ var integerBreak = function(n) {
 };
 ```
 
+## 打家劫舍系列
 
----
+**1、leetcode 198.打家劫舍**  https://leetcode.cn/problems/house-robber/
+
+> 打家劫舍是dp解决的经典问题。
+
+![](/img/algorithm/DP/leetcode198.png)
+
+**解题思路**
+
+- dp[i]：考虑下标i（包括i）以内的房屋，最多可以偷窃的金额为dp[i]；
+- 递推公式：dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])；
+- dp[0] = nums[0]，dp[1] = max(nums[0], nums[1])；
+- 遍历顺序为：从前到后。
+
+**代码实现**
+
+```javascript
+var rob = function (nums) {
+    const len = nums.length;
+    const dp = [nums[0], Math.max(nums[0], nums[1])];
+    for (let i = 2; i < len; i++) {
+        dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
+    }
+    return dp[len - 1];
+};
+```
+
+**2、leetcode 213.打家劫舍 II**  https://leetcode.cn/problems/house-robber-ii/
+
+![](/img/algorithm/DP/leetcode213.png)
+
+**解题思路**
+
+- dp[i]：考虑下标i（包括i）以内的房屋，最多可以偷窃的金额为dp[i]；
+- 递推公式：dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])；
+- 遍历顺序为：从前到后。
+
+**代码实现**
+
+```javascript
+var rob = function (nums) {
+    const n = nums.length;
+    if (n === 0) return 0;
+    if (n === 1) return nums[0];
+    const result1 = robRange(nums, 0, n - 2); // 不包含尾
+    const result2 = robRange(nums, 1, n - 1); // 不包含头
+    return Math.max(result1, result2);
+};
+
+// 打家劫舍的逻辑
+const robRange = (nums, start, end) => {
+    if (end === start) return nums[start];
+    const dp = Array(nums.length).fill(0);
+    dp[start] = nums[start];
+    dp[start + 1] = Math.max(nums[start], nums[start + 1]);
+    for (let i = start + 2; i <= end; i++) {
+        dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
+    }
+    return dp[end];
+}
+```
+
+**3、leetcode 337.打家劫舍 III**  https://leetcode.cn/problems/house-robber-iii/
+
+![](/img/algorithm/DP/leetcode337.png)
+
+**解题思路**
+
+- 下标为0记录不偷该节点所得到的的最大金钱，下标为1记录偷该节点所得到的的最大金钱；
+- 递归的过程中，系统栈会保存每一层递归的参数；
+- 使用后序遍历。 因为通过递归函数的返回值来做下一步计算。
+
+**代码实现**
+
+```javascript
+var rob = function (root) {
+    // 后序遍历函数
+    const postOrder = node => {
+        // 递归出口
+        if (!node) return [0, 0];
+        // 遍历左子树
+        const left = postOrder(node.left);
+        // 遍历右子树
+        const right = postOrder(node.right);
+        // 不偷当前节点，左右子节点都可以偷或不偷，取最大值
+        const DoNot = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+        // 偷当前节点，左右子节点只能不偷
+        const Do = node.val + left[0] + right[0];
+        // [不偷，偷]
+        return [DoNot, Do];
+    };
+    const res = postOrder(root);
+    // 返回最大值
+    return Math.max(...res);
+};
+```
