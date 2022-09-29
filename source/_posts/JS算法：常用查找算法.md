@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 查找
 top_img: /img/algorithm/Search/search.jpeg
 cover: /img/algorithm/Search/search.jpeg
 ---

@@ -7,7 +7,7 @@ categories:
   - 数据结构
 keywords:
   - 数据结构
-
+abbrlink: 字典和散列表
 top_img: /img/dataStructures/dataStructures.webp
 cover: /img/dataStructures/dataStructures.webp
 ---

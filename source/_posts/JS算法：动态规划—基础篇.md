@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 动态规划—基础篇
 swiper_index: 7
 swiper_desc: 动态规划
 swiper_cover: /img/algorithm/DP/DP.jpg

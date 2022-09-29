@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 动态规划—股票问题篇
 top_img: /img/algorithm/DP/DP.jpg
 cover: /img/algorithm/DP/DP.jpg
 ---

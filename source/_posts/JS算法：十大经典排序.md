@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 排序
 top_img: /img/algorithm/Sort/sort.jpg
 cover: /img/algorithm/Sort/sort.jpg
 ---

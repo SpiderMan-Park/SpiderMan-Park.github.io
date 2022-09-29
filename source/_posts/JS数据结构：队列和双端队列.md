@@ -7,6 +7,7 @@ categories:
   - 数据结构
 keywords:
   - 数据结构
+abbrlink: 队列和双端队列
 swiper_index: 4
 swiper_desc: 队列和双端队列
 swiper_cover: /img/dataStructures/dataStructures.webp

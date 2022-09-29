@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 回溯
 top_img: /img/algorithm/BackTracking/BackTracking.jpg
 cover: /img/algorithm/BackTracking/BackTracking.jpg
 ---

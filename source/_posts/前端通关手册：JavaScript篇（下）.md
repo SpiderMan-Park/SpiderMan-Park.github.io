@@ -7,6 +7,7 @@ categories:
   - 前端
 keywords:
   - JavaScript
+abbrlink: JavaScript篇（下）
 top_img: /img/front/js_img/js.webp
 cover: /img/front/js_img/js.webp
 ---

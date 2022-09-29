@@ -7,6 +7,7 @@ categories:
   - Hexo
 keywords:
   - Hexo
+abbrlink: Hexo设置域名
 top_img: /img/hexo/hexo.webp
 cover: /img/hexo/hexo.webp
 ---

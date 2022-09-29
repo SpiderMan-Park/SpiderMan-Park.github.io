@@ -7,6 +7,7 @@ categories:
   - 前端
 keywords:
   - JavaScript
+abbrlink: JavaScript篇（上）
 swiper_index: 2
 swiper_desc: 前端通关手册：JavaScript篇（上）
 swiper_cover: /img/front/js_img/js.webp

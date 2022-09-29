@@ -7,6 +7,7 @@ categories:
   - 数据结构
 keywords:
   - 数据结构
+abbrlink: 树
 swiper_index: 6
 swiper_desc: 树
 swiper_cover: /img/dataStructures/dataStructures.webp

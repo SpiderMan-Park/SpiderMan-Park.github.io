@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 贪心
 top_img: /img/algorithm/Greedy/Greedy.jpg
 cover: /img/algorithm/Greedy/Greedy.jpg
 ---

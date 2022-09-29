@@ -7,6 +7,7 @@ categories:
   - 算法
 keywords:
   - 算法
+abbrlink: 分治
 top_img: /img/algorithm/DivideConquer/DivideConquer.jpg
 cover: /img/algorithm/DivideConquer/DivideConquer.jpg
 ---
